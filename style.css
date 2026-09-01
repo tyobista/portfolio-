@@ -1,9 +1,13 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 40px;
-    background: #100651;
-    color: #ffffff;
+    background-image: url("images/claw.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    background-attachment: fixed;
+
 }
 
 nav {
@@ -15,12 +19,4 @@ nav a {
     color: #ffffff;
     ;
     text-decoration: none;
-}
-
-h1 {
-    font-size: 48px;
-}
-
-p {
-    font-size: 20px;
 }
