@@ -9,39 +9,68 @@
 </head>
 
 <body>
+    <div class="logo-image">
+        <image src="image/logo.jpg" alt="logo Picture">
+    </div>
     <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#experience">Experience</a>
-        <a href="#contact">Contact</a>
+        <a href="#home">
+            <button class="nav-button active" data-section="home">
+                <i data-lucide="house">⌂</i>
+                <span>Home</span>
+            </button>
+        </a>
+        <a href="#about">
+            <button class="nav-button" data-section="about">
+                <i data-lucide="user">♙</i>
+                <span>About</span>
+            </button>
+        </a>
+        <a href="#projects">
+            <button class="nav-button" data-section="projects">
+                <i data-lucide="folder">▣</i>
+                <span>Projects</span>
+            </button>
+        </a>
+        <a href="#engineering">
+            <button class="nav-button" data-section="engineering">
+                <i data-lucide="cog">◈</i>
+                <span>Engineering</span>
+            </button>
+        </a>
+        <a href="#software">
+            <button class="nav-button" data-section="software">
+                <i data-lucide="code">⌘</i>
+                <span>Software</span>
+            </button>
+        </a>
+        <a href="#experience">
+            <button class="nav-button" data-section="experience">
+                <i data-lucide="briefcase">◷</i>
+                <span>Experience</span>
+            </button>
+        </a>
+        <a href="#certifications">
+            <button class="nav-button" data-section="certifications">
+                <i data-lucide="award">◆</i>
+                <span>Certifications</span>
+            </button>
+        </a>
+        <a href="#contact">
+            <button class="nav-button" data-section="contact">
+                <i data-lucide="mail">✉</i>
+                <span>Contact</span>
+            </button>
+        </a>
     </nav>
+    <script src="https://unpkg.com/lucide@latest"></script>
 
-    <section id="home">
-        <div class="home-content">
-            <h1>Hi, I'm Tyobista</h1>
-            <p>Mechanical Engineering Student</p>
-        </div>
-        <div class="claw-container">
-            <img src="claw.jpg" alt="Futuristic claw" class="claw-image">
-        </div>
-    </section>
-    <section id="about">
-
-    </section>
-    <section id="skills">
-
-    </section>
-    <section id="projects">
-
-    </section>
-    <section id="experience">
-
-    </section>
-    <section id="contact">
-
-    </section>
+    <script>
+        lucide.createIcons();
+    </script>
+    <div class="button-row">
+        <button class="button button-primary" data-go="projects">View my work ↗</button>
+        <button class="button button-ghost" data-go="contact">Let's connect ✉</button>
+    </div>
 </body>
 
 </html>
