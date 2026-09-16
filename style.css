@@ -1,3 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #24058a;
+    color: #ffffff;
+}
+
 nav {
     display: flex;
     flex-direction: column;
@@ -23,6 +30,7 @@ nav a {
     box-shadow: none;
     outline: none;
     appearance: none;
+    transition: 0.3s ease;
 }
 
 .nav-button svg {
@@ -31,6 +39,11 @@ nav a {
     stroke: white;
     margin: 0px;
     cursor: pointer;
+}
+
+.nav-button:hover {
+    background-color: #241177;
+    box-shadow: 0 0 15px #4c1abb;
 }
 
 .logo-image {
@@ -60,18 +73,32 @@ nav a {
 }
 
 .home-content {
-    margin-right: 200px;
-    padding: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.home-content1 {
+    padding-right: 20px;
+
+}
+
+.home-content2 {
+    padding-left: 20px;
+
 }
 
 .main-content {
-    background-color: #24058a;
     min-height: 100vh;
-    width: calc(100% - 143px);
+    width: calc(100% - 300px);
     top: 0;
     right: 0px;
     margin: 0px;
-    padding: 0px;
+    padding: 20px;
     position: absolute;
     outline: white;
+}
+
+.introduction {
+    font-size: 20px;
+    margin-top: 50px;
 }
