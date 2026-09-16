@@ -55,7 +55,7 @@ nav a {
     position: fixed;
     left: 0;
     top: 0;
-    height: 700px;
+    height: 100vh;
     outline: white;
 }
 
@@ -66,7 +66,7 @@ nav a {
 
 .main-content {
     background-color: #24058a;
-    min-height: 700px;
+    min-height: 100vh;
     width: calc(100% - 143px);
     top: 0;
     right: 0px;
