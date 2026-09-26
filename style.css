@@ -5,7 +5,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background-color: #24058a;
+    background-color: #0d0251;
     color: #ffffff;
     font-family: Arial, sans-serif;
 }
@@ -75,7 +75,8 @@ nav {
     margin-left: 150px;
     padding: 50px;
     box-sizing: border-box;
-    background-color: #24058a;
+    background-color: #1f0661;
+    position: relative;
 }
 
 .introduction {
@@ -133,4 +134,13 @@ nav {
 .button-ghost:hover {
     background-color: #241177;
     box-shadow: 0 0 15px #4c1abb;
+}
+
+.home-image {
+    top: 30px;
+    right: 30px;
+    width: 400px;
+    height: auto;
+    position: absolute;
+    opacity: 0.5;
 }
